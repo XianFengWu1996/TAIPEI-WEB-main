@@ -1,0 +1,29 @@
+
+.logo {
+    height:100px;
+    width:auto;
+    float:left;
+}
+
+nav{
+    background:#000;  
+}
+
+.desc {
+    font-size:80%;
+    color:#202020;
+    padding:15px 0;
+    cursor:default;
+    font-family: 'arial';
+}
+
+.desc span {
+    padding-top:20px;
+    font-size:90%;
+    color:rgb(87, 84, 84);
+    font-family: 'arial';
+}
+
+section{
+    padding: 40px 0;
+}

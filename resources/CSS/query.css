@@ -1,0 +1,290 @@
+@media only screen and (max-width: 1200px)
+{
+   .content-box
+    {
+        padding: 0 10%;
+    }
+    
+    .row {padding:0 2%;}
+    .customer {height:110vh;}
+    .content-box h1{font-size:160%;}
+    blockquote {font-size:90%;}
+    
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1024px)
+{
+    header{
+        background-image: url(img/background.jpg) no-repeat ;
+        background-size:cover;
+        background-attachment: unset;
+    }
+
+    .customer{
+        background-image: url(img/customer-background-min.jpg) no-repeat ;
+        background-size:cover;
+        background-attachment: unset;
+    }
+
+    h2{font-size:120%;}
+    h3 {font-size:90%;}
+    section{
+        padding: 60px;
+        width:100%;
+    }
+    .customer{height:120vh;}
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited,
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size:85%;
+    }
+    .feature p {font-size:90%;}
+    blockquote{font-size:80%;}
+    .operation-hours{font-size:90%;}
+    .opensign img {
+        width: 170px;
+        margin: 0 55px 0px;;
+    }
+    .reservation img {
+        width:150px;
+        margin-top:20px;
+    }
+    .fa-utensils {
+        font-size:400%;
+        margin:25px 0px 15px 25px;   
+    }
+    .reservation, 
+    .catering {font-size:80%;}
+    .partner-logo {
+        width:100px;
+        height:100px;
+        margin-left:15%;
+        margin-top:50px;
+    }
+    .order-btn a {
+        border-radius:25px;
+        padding:5px 20px; 
+    }
+    .contact-info .phone-num{font-size: 90%;}
+    .social ul li a{font-size:120%;}
+    .copyright {font-size:80%;}
+
+    .wrapper {
+        grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    }
+
+    
+   .wrapper img {
+    height:80%;
+    }
+}
+
+ /* Small Phone to small tablet:from 481px to 767px */
+@media only screen and (max-width: 768px)
+{
+    .content-box {
+        font-size:90%;  
+        width:700px;
+        top:50%;
+        left:50%;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+
+    h2{font-size:85%};
+
+    .feature p {
+        width:100%;
+        font-size:70%;
+        margin-left:10px;
+    }
+    .box {
+        display:block;
+        width:100%;
+    }
+
+    .icon-big,
+    h3{text-align: center;}
+    
+    .quote {
+        display:block;
+        width:100%;
+    }
+    .customer {height:auto;}
+    .operation-hours{
+        font-size:65%;
+    }
+    .opensign img {
+        width: 110px;
+        margin: 0 45px 0px;;
+    }
+    .reservation img {
+        display: block;
+        width:110px;
+        margin-top:20px;
+        margin-left:25%;
+    }
+    .fa-utensils {
+        display: block;
+        font-size:320%;
+        margin-top:20px; 
+        margin-left:40%;
+    }
+
+    .reservation, 
+    .catering {font-size:70%;}
+
+    .reservation h3,
+    .catering h3 {
+        font-size:110%;
+        font-weight:500;
+        margin-bottom: 10px;
+    }
+  
+    .order-btn {
+        margin-left:30px;
+        margin-top:0px;
+    }
+    .order-btn a {
+        border-radius:25px;
+        padding:5px 20px; 
+    }
+    footer{
+        height:150px;
+    }
+    .contact-info .phone-num{
+        font-size: 70%;
+    }
+
+    .social ul li a{
+        font-size:100%;
+    }
+
+    .copyright {
+        font-size:60%;
+        text-align: center;
+    }
+    .social ul {margin-left:-100px;}
+    
+    .open-bar,
+    .sticky .open-bar{
+        display:block !important;
+    }
+    .sticky .open-bar{
+        color:#333;
+    }
+    
+    
+    .main-nav {display: none;}
+
+    .mobile-nav,
+    .sticky .mobile-nav{
+        display:none;
+    }
+
+    .wrapper {
+        grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+    }
+
+    
+   .wrapper img {
+    height:80%;
+    width:100%;
+    }
+
+} 
+/* Small Phones from 0 to 480 px */
+@media only screen and (max-width: 480px)
+{
+    .content-box{
+        font-size:65%;
+        width:100%;
+    }
+
+    .btn:link,
+    .btn:visited{
+    display: block;
+    width:190px;
+    font-size:100%;
+    text-align:center;
+    font-weight: 600;
+    margin-top:10px;
+    }
+    .long-copy{
+       font-size:80%;
+       width:100%;
+       margin:0;
+    }
+    .icon-big{
+        margin-top:10px;
+    }
+
+    .opensign img {
+        margin:0 auto;
+    }
+
+    .operation-hours{
+        text-align: center;
+    }
+
+    .operation-hours table {
+        width:110%;
+    }
+
+    .reservation img,
+    .catering img{
+        margin:0 auto;
+        padding-top:10px;
+    }
+
+    .partner-logo{
+        margin:0 auto;
+    }
+
+    .order-btn{
+        margin:0 auto;
+        padding-bottom:20px;
+    }
+    footer{
+        height:200px;
+    }
+    .contact-info{
+        width:100%;
+        text-align: center;
+    }
+
+    .social ul{
+        margin-left:50px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .wrapper {
+        grid-template-columns: 100%;
+        margin: 30px 0;
+    }
+    
+    .section{
+        padding: 40px;
+    }
+    
+    .desc {
+    font-size:70%;
+    }
+
+    .desc span {
+    font-size:80%;
+   
+}
+
+
+    
+} 

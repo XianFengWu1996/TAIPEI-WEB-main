@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width:1140px;
+    margin:0 auto;
+}
+
+.content {
+    width:1400px;
+    height: auto;
+}
+
+.menu {
+    width: 100%;
+}
+
+.meal-photo {
+    width: 25%;
+}
+
+,meal-photo img {
+    width: 100%;
+}
+
